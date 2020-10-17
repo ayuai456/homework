@@ -16,7 +16,7 @@ basic.forever(function () {
         basic.pause(500)
     }
     for (let Y = 0; Y <= 4; Y++) {
-        led.plot(1, Y - 0)
+        led.plot(0, Y - 0)
         basic.pause(500)
     }
 })
